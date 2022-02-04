@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+  <link  rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>SignUp</h1>
+  </header>
+  <main>
+    <form action="" method="POST">
+      <fieldset>
+        <legend>Basic Info</legend>
+        <div>
+          <label for="user">First Name</label>
+          <input type="text" name="user" id="user" placeholder="required" required>
+        </div>
+        <div>
+          <label for="user">Last Name</label>
+          <input type="text" name="lastname" id="lastname" placeholder="required" required>
+        </div>
+        <div>
+          <label for="tel">Phone</label>
+          <input type="tel" name="tel" id="tel" placeholder="required" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="required" required>
+        </div>
+        <div>
+          <label for="address">Password</label>
+          <input type="text" name="password" id="password" placeholder="password">
+        </div>
+        <div>
+          <label for="Date">Date</label>
+           <input type="Date" name="Date" placeholder="Date">
+        </div>
+        
+        <label for="message" class="lab">Tell me more!</label>
+        <textarea type="message" name="message" id="message" rows="4" cols="20" placeholder="optional" optional> </textarea>
+  
+        <button type="submit" class="input-title pointer no-border">SignUp</button>
+  
+      </fieldset>
+    </form>
+  </main>
+</body>
+</html>
